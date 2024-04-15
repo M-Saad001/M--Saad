@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/M-Saad001";
 global.gurl  =process.env.GURL  || "";
 global.website=process.env.GURL || "" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/9c39650103d292eca4a78.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/37eb4b3bfd06279104182.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/9c39650103d292eca4a78.jpg,https://telegra.ph/file/9c39650103d292eca4a78.jpg,https://telegra.ph/file/9c39650103d292eca4a78.jpg,https://telegra.ph/file/9c39650103d292eca4a78.jpg" // 
+global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/37eb4b3bfd06279104182.jpg,https://telegra.ph/file/37eb4b3bfd06279104182.jpg,https://telegra.ph/file/37eb4b3bfd06279104182.jpg,https://telegra.ph/file/37eb4b3bfd06279104182.jpg" // 
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -62,22 +62,22 @@ global.api_smd = "https://api-smd-1.vercel.app"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_19_35_04_11_ewogICJjcmVkcy5qc29uIjogIntcIm5vaXNlS2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwibUxYeEJuU1JWZGc2UUQ5VmFNMWFycDhpNkNmZHcwR1l2YUYrOER0K0NtMD1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInZHWGdFMk1NVk9pOURwNnlxeVYxRzRJb0JxNlJhRDgzcHo5NmFtNmF3Ulk9XCJ9fSxcInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyXCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiZ0M2d0EySmVQcjhpcXFDOTN0Y0lQYk5wVGp5L3pNQ0RFZTJYZ1ovQ0RVdz1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcInRHVVdHT1FCREVRUE9zaXE3c3Y5UmNaeXU5MW1NNkNnQVNacmErQVp4MEk9XCJ9fSxcInNpZ25lZElkZW50aXR5S2V5XCI6e1wicHJpdmF0ZVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiNEFYVEFwMjZCRUdvQ1duWXBBa1k1QlVDdlN4NFFmRWpXZzFaY3lWaU5HTT1cIn0sXCJwdWJsaWNcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcIlg0SmNHTkd0UXB4WmxXVnM2cFg4d2pocE1IREFZZ2U2anUvWlI0cSs5QTQ9XCJ9fSxcInNpZ25lZFByZUtleVwiOntcImtleVBhaXJcIjp7XCJwcml2YXRlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJxTDcvMmo2K3VvTmQ3TitjQ3VKQjYrOWUyZWZjSi9RTDFOSkF2YXdzSUdVPVwifSxcInB1YmxpY1wiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwibkJvYWpkNlNvZkRTZElhcWlMK3k0ak0xQ3dFbERnRmVlSWZsV2p4cjZWQT1cIn19LFwic2lnbmF0dXJlXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJpK0pwOHprbk1PYkM0NHhVeGcrRjg5cHcxZEtXVnlzb3JXeEdINFhpZkhHS1V4TWlpZVF4YzNzTURYTTByQTkyeUtJb0NrT1p1Z2lsTE5JeU9pdzFCQT09XCJ9LFwia2V5SWRcIjoxfSxcInJlZ2lzdHJhdGlvbklkXCI6MjE3LFwiYWR2U2VjcmV0S2V5XCI6XCJ0aWx3dk90b0xrMzVCRUVHTkMzUml5d1RhRzhQcWdsdG5jUUFXcWF6NmNBPVwiLFwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzXCI6W3tcImtleVwiOntcInJlbW90ZUppZFwiOlwiOTIzMjM5NjI2NDI0QHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjlGQzMyOEYwMjAwQjAwREM0NzAzN0FDNEVEMjZENzBEXCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MTI4NjQxNDd9LHtcImtleVwiOntcInJlbW90ZUppZFwiOlwiOTIzMjM5NjI2NDI0QHMud2hhdHNhcHAubmV0XCIsXCJmcm9tTWVcIjp0cnVlLFwiaWRcIjpcIjFEMjU1RUYzNDBDNkUxMkNBNDdBNjRCMjM4QzRDOEY3XCJ9LFwibWVzc2FnZVRpbWVzdGFtcFwiOjE3MTI4NjQxNDd9XSxcIm5leHRQcmVLZXlJZFwiOjMxLFwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWRcIjozMSxcImFjY291bnRTeW5jQ291bnRlclwiOjEsXCJhY2NvdW50U2V0dGluZ3NcIjp7XCJ1bmFyY2hpdmVDaGF0c1wiOmZhbHNlfSxcImRldmljZUlkXCI6XCJ5TXJhQ0VDUFNTYVJQRHYzVThldmdRXCIsXCJwaG9uZUlkXCI6XCJiNmIwNmM3Ny1kNTYyLTQyMDUtODc2Zi1hYmRmOTJkNTE4YjhcIixcImlkZW50aXR5SWRcIjp7XCJ0eXBlXCI6XCJCdWZmZXJcIixcImRhdGFcIjpcImZrMDA1QlMrRm53OVQyV3N0U1FNN0hMS1BBTT1cIn0sXCJyZWdpc3RlcmVkXCI6dHJ1ZSxcImJhY2t1cFRva2VuXCI6e1widHlwZVwiOlwiQnVmZmVyXCIsXCJkYXRhXCI6XCJBa2krOTFmS2xVamUzMHNReEFSQm5yM1ZORUU9XCJ9LFwicmVnaXN0cmF0aW9uXCI6e30sXCJwYWlyaW5nQ29kZVwiOlwiMzgyQ1NKOERcIixcIm1lXCI6e1wiaWRcIjpcIjkyMzIzOTYyNjQyNDoxNEBzLndoYXRzYXBwLm5ldFwiLFwibGlkXCI6XCIxMDQ4ODc4NjYxMTgzNTg6MTRAbGlkXCIsXCJuYW1lXCI6XCLiuJnwk4apwqvhj5rkuYjkuYjhjqDwlJKdwrvqnJvYnPCThqpcIn0sXCJhY2NvdW50XCI6e1wiZGV0YWlsc1wiOlwiQ1BYMjZlSUVFSTczNExBR0dBUWdBQ2dBXCIsXCJhY2NvdW50U2lnbmF0dXJlS2V5XCI6XCJYV2wxNEhTcTZmbUNLNlB2RXBjM3Y1Z0I5aW1wZG55UEM5Q2sva1dmbVhZPVwiLFwiYWNjb3VudFNpZ25hdHVyZVwiOlwiUmp1K05nOFBnNzd3V0xSTEJhL0VpRnUrNGt4WG1GekJiSlo2R1JZcGFyTzA4UlU3QlFQcTBjeWR0WUR6TCsxeVRSa2JzbE1QSjBhN2pJbDNzeENRQ1E9PVwiLFwiZGV2aWNlU2lnbmF0dXJlXCI6XCJyaUxYdnBRa3E1cWpwWEFtRkoxVjlXbHNGemxkQXBybTFvVHZPOVpPMXN5WkZBa3orenFVSVpLc2xIbW4vUjJOQmF5TlFaODVkWkhnVy9OWVl5SS9DZz09XCJ9LFwic2lnbmFsSWRlbnRpdGllc1wiOlt7XCJpZGVudGlmaWVyXCI6e1wibmFtZVwiOlwiOTIzMjM5NjI2NDI0OjE0QHMud2hhdHNhcHAubmV0XCIsXCJkZXZpY2VJZFwiOjB9LFwiaWRlbnRpZmllcktleVwiOntcInR5cGVcIjpcIkJ1ZmZlclwiLFwiZGF0YVwiOlwiQlYxcGRlQjBxdW41Z2l1ajd4S1hONytZQWZZcHFYWjhqd3ZRcFA1Rm41bDJcIn19XSxcInBsYXRmb3JtXCI6XCJhbmRyb2lkXCIsXCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXBcIjoxNzEyODY0MTQ1LFwibXlBcHBTdGF0ZUtleUlkXCI6XCJBQUFBQUp5VVwifSIsCiAgImFwcC1zdGF0ZS1zeW5jLWtleS1BQUFBQUp5VS5qc29uIjogIntcImtleURhdGFcIjpcIkZlTTZSSThrVEVoZFFKVXRQWDczOGxBazBtOTZLTFl0cUhMaEJsQ3E4SFk9XCIsXCJmaW5nZXJwcmludFwiOntcInJhd0lkXCI6MTI4MDk5ODI1NCxcImN1cnJlbnRJbmRleFwiOjEsXCJkZXZpY2VJbmRleGVzXCI6WzAsMV19LFwidGltZXN0YW1wXCI6XCIwXCJ9Igp9" ;
+global.SESSION_ID = process.env.SESSION_ID ||  "" ;
 
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: ⸙𓆩«Ꮪ么么Ꭰ𔒝»ꜛ؜𓆪, 2: ᶬ᭄Ꮪ么么Ꭰメ, 3: SAAD Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: 𓆩Ꮪ么么Ꭰ𔒝؜𓆪, 2: Ꮪ么么Ꭰ, 3: SAAD Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "©⸙𓆩«Ꮪ么么Ꭰ𔒝»ꜛ؜𓆪"),
+  caption : process.env.CAPTION || "©𓆩Ꮪ么么Ꭰ𔒝؜𓆪"),
  
   author : process.env.PACK_AUTHER|| "SAAD<3",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "SAAD<3",
-  ownername:process.env.OWNER_NAME|| "⸙𓆩«Ꮪ么么Ꭰ𔒝»ꜛ؜𓆪",
+  ownername:process.env.OWNER_NAME|| "𓆩Ꮪ么么Ꭰ𔒝𓆪",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "SAAD"  ).toUpperCase(),
 
 
 
